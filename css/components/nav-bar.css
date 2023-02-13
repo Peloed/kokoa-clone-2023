@@ -41,7 +41,7 @@
 .nav_notification2{
    
     position: absolute;
-    top: 20px;
+    top: 5px;
     margin-left: 33px;
 }
 @keyframes appearBtnAnimation {
