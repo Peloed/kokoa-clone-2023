@@ -1,0 +1,34 @@
+.status-bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 3px;
+    box-sizing: border-box;
+    /*top or bottomにバーを固定したい時は、
+    
+    top or bottom:0
+    width:100%
+    そしてbox-sizing:border-box;
+    と設定する。;
+    box-sizing:border-boxは余計にサイズを伸ばさず、border内で収めると命令すること*/
+}
+.status-bar__column{
+    width: 33%;
+}
+.status-bar__column:first-child span{
+    margin-right: 5px;
+}
+.status-bar__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.status-bar__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.status-bar__column .fa-battery-quarter{
+    margin: 0px 5px;
+}

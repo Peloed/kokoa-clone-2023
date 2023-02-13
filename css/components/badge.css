@@ -1,0 +1,26 @@
+.badge{
+    background-color: tomato;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 600;
+}
+.badge2{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    display: block;
+    border-radius: 2.5px;
+}
+.screen-header__icon span:last-child{
+    position: relative;
+}
+.screen-header__icon span:last-child span.badge2{
+    position: absolute;
+    left: 1px;
+    bottom: 20px;
+}
